@@ -1,1 +1,2 @@
 # AtcorderPractice_Python
+atcorderをpythonでシバく練習をするレポジトリ
