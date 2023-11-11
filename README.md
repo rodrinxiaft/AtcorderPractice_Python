@@ -1,2 +1,3 @@
 # AtcorderPractice_Python
 atcorderをpythonでシバく練習をするレポジトリ
+変なコードあったらissue建ててください
