@@ -1,18 +1,18 @@
-dp = [0]*(N+1)
-dp[1] = max(A[0],B[0],C[0])
+# dp = [0]*(N+1)
+# dp[1] = max(A[0],B[0],C[0])
 
-for i in range(2,N+1):
-    if dp[i-1] - dp[i-2] == A[i-2]:
-        dp[i] = dp[i-1] + max(B[i-1],C[i-1])
+# for i in range(2,N+1):
+#     if dp[i-1] - dp[i-2] == A[i-2]:
+#         dp[i] = dp[i-1] + max(B[i-1],C[i-1])
         
-    elif dp[i-1] - dp[i-2] == B[i-2]:
-        dp[i] = dp[i-1] + max(A[i-1],C[i-1])
+#     elif dp[i-1] - dp[i-2] == B[i-2]:
+#         dp[i] = dp[i-1] + max(A[i-1],C[i-1])
         
-    elif dp[i-1] - dp[i-2] == C[i-2]:
-        dp[i] = dp[i-1] + max(A[i-1],B[i-1])
-# print(dp)
-print(dp[-1])
-#だめだった
+#     elif dp[i-1] - dp[i-2] == C[i-2]:
+#         dp[i] = dp[i-1] + max(A[i-1],B[i-1])
+# # print(dp)
+# print(dp[-1])
+# #だめだった
 
 N = int(input())
 A = [0] * N
